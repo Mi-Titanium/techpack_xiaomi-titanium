@@ -1,4 +1,4 @@
-ifeq ($(CONFIG_MACH_XIAOMI_MSM8953),y)
+ifeq ($(CONFIG_MACH_XIAOMI_TITANIUM),y)
 obj-$(CONFIG_INPUT_TOUCHSCREEN) += touchscreen/
 obj-$(CONFIG_POWER_SUPPLY) += power_supply/
 obj-$(CONFIG_NEW_LEDS) += leds/
